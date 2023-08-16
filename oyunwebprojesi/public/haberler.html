@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BG| HABERLER</title>
+  <link rel="icon" type="image/x-icon" href="/public/images/bayrak gamejpg.jpg">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Open+Sans&display=swap"
+    rel="stylesheet">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body class="font-open dark">
+
+    <!--Dark/Light Toggle-->
+    <div class="absolute top-1 left-5 cursor-pointer text-lg">
+      <i class="fa-solid fa-sun text-white" id="sun"></i>
+      <i class="fa-solid fa-moon text-black hidden" id="moon"></i>
+    </div>
+  
+  <!--Header Section-->
+  <header id="anabaslik" class="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase">
+    <!--Header Container-->
+    <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
+      <!--Logo-->
+      <a href="index.html"><img src="/public/images/bayrak game2.png" alt=""></a>
+
+      <!--Mobile Menu-->
+      <div class="block md:hidden pr-4">
+        <div class="space-y-1 cursor-pointer">
+          <div class="bg-gega-grey w-8 h-1 rounded-full"></div>
+          <div class="bg-gega-grey w-8 h-1 rounded-full"></div>
+          <div class="bg-gega-grey w-8 h-1 rounded-full"></div>
+        </div>
+      </div>
+
+      <!--Navigation-->
+      <nav class="hidden md:flex justify-between flex-1">
+        <!--Menu-->
+        <div class="flex items-center lg:text-lg space-x-4 lg:space-x-8">
+          <i class="fa-solid fa-gamepad" >
+          <a href="oyunlar.html"  class="hover:text-orange-500 transition duration-500">oyunlar</a></i>
+          <i class="fa-solid fa-newspaper" >
+          <a href="haberler.html"  class="hover:text-orange-500 transition duration-500">haberler</a></i>
+          <i class="fa-solid fa-paper-plane" >
+          <a href="iletisim.html"  class="hover:text-orange-500 transition duration-500">iletişim</a></i>
+        </div>
+        <!--Login Area-->
+        <div class="flex items-center space-x-4 lg:space-x-8">
+          <!--Search Area-->
+          <form>
+            <div class="group border-r px-4 mx-4 py-1 border-orange-500">
+              <input type="text"
+                class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-orange-500 focus:outline-none w-24 lg:w-44 transition duration-500 ">
+              <button class="-ml-4 group-hover:ml-0 transition duration-500"><i
+                  class="fas fa-search group-hover:text-orange-500 transition duration-500"></i></button>
+            </div>
+          </form>
+          <!--Signup Area-->
+          <div class="flex items-center space-x-4 lg:space-x-8 lg:text-lg">
+
+            <a href="giris.html"
+              class="bg-orange-500 px-3 py-1 hover:bg-orange-600 hover:text-gega-grey cursor-pointer transition duration-500 whitespace-nowrap rounded-full">Giris | Kaydol
+              </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+      <!--Post Section-->
+  <section class=" py-24 bg-black text-gega-grey">
+    <!--Container-->
+    <div class="container px-10 lg:px-0">
+      <!--Title-->
+      <h2 class="text-orange-500"><a href="#">Haberler</a></h2><br>
+
+      <!--Grid Area-->
+      <div class="grid grid-cols-6  gap-10">
+        <!--Item 1-->
+        <div class="col-span-6 md:col-span-3 border rounded-lg border-orange-500">
+          <!--Item 1 Header-->
+          <div class="border-b border-orange-500 p-4 flex items-center justify-between">
+            <h3>CALL OF DUTY: MODERN WARFARE III WORLDWIDE REVEAL AUGUST 17 IN WARZONE.</h3>
+            <i class="fa-solid fa-rss fa-2xl"></i>
+          </div>
+          <!--Item 1 Para-->
+          <p class="p-4 text-sm">Communications for Call of Duty®: Modern Warfare® III have officially begun.
+
+            It’s time to adapt or die in a fight against the ultimate threat. Task Force 141 will be tested beyond the breaking point. The ultimate threat is here. And this time, it seems Captain Price needs all the allies and support he can muster.
+            
+            
+            The Worldwide Reveal in Warzone Operation Shadow Siege on August 17</p>
+            <div class="flex space-x-2 items-center cursor-pointer">
+                <a href="https://store.steampowered.com/news/?emclan=103582791472023113&emgid=5197769538552443444" target="_blank" class="uppercase underline lg:text-md text-gray-500 pl-4">Okumaya devam et</a>
+                <div class="flex h-8 w-8 rounded-full text-center items-center justify-center bg-orange-500 ">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+          <!--Item 1 Footer-->
+          <div
+          class="p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xs">
+          <p>Yayımlanma | 15.08.2023</p>
+          <div class="flex items-center justify-center space-x-1">
+            <i class="fa-solid fa-eye fa-lg" style="color: #929c02;"></i>
+            <p>285</p>
+          </div>
+        </div>
+        </div>
+
+        <!--Item 2-->
+        <div class="col-span-6 md:col-span-3 border rounded-lg border-orange-500">
+          <!--Item 2 Header-->
+          <div class="border-b border-orange-500 p-4 flex items-center justify-between">
+            <h3>TennoCon 2023 için Geri Sayım.</h3>
+            <i class="fa-solid fa-rss fa-2xl"></i>
+          </div>
+          <!--Item 2 Para-->
+          <p class="p-4 text-sm">Bugün resmen TennoCon 2023 ve 10. Yıldönümümüz öncesi son adımları işaret ediyor. Bugün tüm duyurular hakkında daha fazla bilgi edin ve 26 Ağustos'taki büyük güne hazırlan!
+
+            TennoCon 2023
+            TennoCon 2023'e bir aydan biraz daha uzun bir süre kala, Ana Sahne etkinlikleri ve canlı yayın programı belli oldu!...</p>
+            <div class="flex space-x-2 items-center cursor-pointer">
+                <a href="https://store.steampowered.com/news/?emclan=103582791433958877&emgid=3640647974754281856" target="_blank" class="uppercase underline lg:text-md text-gray-500 pl-4">Okumaya devam et</a>
+                <div class="flex h-8 w-8 rounded-full text-center items-center justify-center bg-orange-500 ">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+          <!--Item 2 Footer-->
+          <div
+              class="p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xs">
+              <p>Yayımlanma | 15.08.2023</p>
+              <div class="flex items-center justify-center space-x-1">
+                <i class="fa-solid fa-eye fa-lg" style="color: #929c02;"></i>
+                <p>237</p>
+              </div>
+            </div>
+        </div>
+
+        <!--Item 3-->
+        <div class="col-span-6 md:col-span-3 lg:col-span-2 border rounded-lg border-orange-500">
+          <!--Item 3 Header-->
+          <div class="border-b border-orange-500 p-4 flex items-center justify-between">
+            <h3>New World Update 2.0.3</h3>
+            <i class="fa-solid fa-rss fa-2xl"></i>
+          </div>
+          <!--Item 3 Para-->
+          <p class="p-4 text-sm">New World Update 2.0.3 downtime will begin at 11:00PM PT (6:00AM UTC) on August 15 and last approximately 1 hour. As the curtain closes on this year’s Summer Medleyfaire, mysterious gateways have been spotted around Aeternum. Catch Rafflebones in the new Luck of the Bones event for legendary loot. This update will also introduce a new emote bundle to the in-game Store.?</p>
+            <div class="flex space-x-2 items-center cursor-pointer">
+                <a href="https://store.steampowered.com/news/collection/featured/?emclan=103582791465869381&emgid=6786414309890744862" target="_blank" class="uppercase underline lg:text-md text-gray-500 pl-4">Okumaya devam et</a>
+                <div class="flex h-8 w-8 rounded-full text-center items-center justify-center bg-orange-500 ">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+          <!--Item 3 Footer-->
+          <div
+              class="p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xs">
+              <p>Yayımlanma | 15.08.2023</p>
+              <div class="flex items-center justify-center space-x-1">
+                <i class="fa-solid fa-eye fa-lg" style="color: #929c02;"></i>
+                <p>57</p>
+              </div>
+            </div>
+        </div>
+
+        <!--Item 4-->
+        <div class="col-span-6 md:col-span-3 lg:col-span-2 border rounded-lg border-orange-500">
+          <!--Item 4 Header-->
+          <div class="border-b border-orange-500 p-4 flex items-center justify-between">
+            <h3>Introducing the Italian Exotics Car Pack</h3>
+            <i class="fa-solid fa-rss fa-2xl"></i>
+          </div>
+          <!--Item 4 Para-->
+          <p class="p-4 text-sm">Collect and drive 7 Italian new-to-Forza cars including the 2023 Lamborghini Huracán Tecnica, 2022 Ferrari 296 GTB, 2021 Lamborghini Essenza SCV12, 2020 Ferrari Roma, 2020 Lamborghini SC20, 2019 Italdesign DaVinci Concept and 2018 Lamborghini #63 Squadra Corse Huracán Super Trofeo Evo.
+
+            Available now on the Microsoft Store and Steam for USD $9.99 / GBP £7.99 / EUR €9.99.</p>
+            <div class="flex space-x-2 items-center cursor-pointer">
+                <a href="https://store.steampowered.com/news/collection/featured/?emclan=103582791470243830&emgid=5469111416506032802" target="_blank" class="uppercase underline lg:text-md text-gray-500 pl-4">Okumaya devam et</a>
+                <div class="flex h-8 w-8 rounded-full text-center items-center justify-center bg-orange-500 ">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+          <!--Item 4 Footer-->
+          <div
+              class="p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xs">
+              <p>Yayımlanma | 15.08.2023</p>
+              <div class="flex items-center justify-center space-x-1">
+                <i class="fa-solid fa-eye fa-lg" style="color: #929c02;"></i>
+                <p>25</p>
+              </div>
+            </div>
+        </div>
+         <!--Item 5-->
+         <div class="col-span-6 md:col-span-3 lg:col-span-2 border rounded-lg border-orange-500">
+                    <!--Item 5 Header-->
+                    <div class="border-b border-orange-500 p-4 flex items-center justify-between">
+                      <h3>August Driver Ratings</h3>
+                      <i class="fa-solid fa-rss fa-2xl"></i>
+                    </div>
+                    <!--Item 5 Para-->
+                    <p class="p-4 text-sm">Azerbaijan Grand Prix Replay
+                        Want to revisit the Azerbaijan GP in a new way? F1® 23 has you covered with the latest F1® Replay event.
+                        
+                        Represent your favourite driver with objectives linked to where they finished in the real-life race 🏆
+                        
+                        Read more on what to expect later in August: <a href="https://www.ea.com/en-gb/games/f1/f1-23/calendar" class="underline" target="_blank"><span> Click Me !</span></a>
+                        Play Now!</p>
+                      <div class="flex space-x-2 items-center cursor-pointer">
+                        <a href="https://store.steampowered.com/news/collection/featured/?emclan=103582791473252498&emgid=5303604129814007605" target="_blank" class="uppercase underline lg:text-md text-gray-500 pl-4">Okumaya devam et</a>
+                        <div class="flex h-8 w-8 rounded-full text-center items-center justify-center bg-orange-500 ">
+                          <i class="fas fa-play"></i>
+                        </div>
+                      </div>
+                    <!--Item 5 Footer-->
+                    <div
+              class="p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xs">
+              <p>Yayımlanma | 15.08.2023</p>
+              <div class="flex items-center justify-center space-x-1">
+                <i class="fa-solid fa-eye fa-lg" style="color: #929c02;"></i>
+                <p>231</p>
+              </div>
+            </div>
+        
+        </div>
+        <!--Item 6-->
+        <div class="col-span-6 md:col-span-3 lg:col-span-6 border rounded-lg border-orange-500">
+            <!--Item 6 Header-->
+            <div class="border-b border-orange-500 p-4 flex items-center justify-between">
+              <h3>War Thunder | A Decal and Lanovski's P-47M-1-RE for Polish Armed Forces Day</h3>
+              <i class="fa-solid fa-rss fa-2xl"></i>
+            </div>
+            <!--Item 6 Para-->
+            <p class="p-4 text-sm">On August 15th, 1920 the Polish forces delivered a crushing counterattack against the Red Army during the Battle for Warsaw. This decisive moment in the Soviet-Polish War is commemorated in Poland as the Armed Forces Day — with a military parade and placing wreaths on the Tomb of the Unknown Soldier.
+            </p>
+              <div class="flex space-x-2 items-center cursor-pointer">
+                <a href="https://store.steampowered.com/news/collection/featured/?emclan=103582791434171221&emgid=7157961279931565860" target="_blank" class="uppercase underline lg:text-md text-gray-500 pl-4">Okumaya devam et</a>
+                <div class="flex h-8 w-8 rounded-full text-center items-center justify-center bg-orange-500 ">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            <!--Item 61 Footer-->
+            <div
+              class="p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xs">
+              <p>Yayımlanma | 15.08.2023</p>
+              <div class="flex items-center justify-center space-x-1">
+                <i class="fa-solid fa-eye fa-lg" style="color: #929c02;"></i>
+                <p>52</p>
+              </div>
+            </div>
+          </div>
+         <!--Item 7-->
+        <div class="col-span-6 md:col-span-3 lg:col-span-6 border rounded-lg border-orange-500">
+            <!--Item 7 Header-->
+            <div class="border-b border-orange-500  p-4 flex items-center justify-between">
+              <h3>Cities: Skylines II | Economy & Production </h3>
+              <i class="fa-solid fa-rss fa-2xl"></i>
+            </div>
+            <!--Item 7 Para-->
+            <p class="p-4 text-sm">Hi and welcome back to another development diary for Cities: Skylines II! This time we’ll take a closer look at the economic simulation, how citizens and companies manage and use resources, and how you can build a prosperous city knowing where citizens want to live, where companies seek to locate, and why and how to build connections that lay the foundation for citizens, resources, and services moving around the city smoothly.</p>
+              <div class="flex space-x-2 items-center cursor-pointer">
+                <a href="https://store.steampowered.com/news/collection/featured/?emclan=103582791473275351&emgid=3659789541073568603" target="_blank" class="uppercase underline lg:text-md text-gray-500 pl-4">Okumaya devam et</a>
+                <div class="flex h-8 w-8 rounded-full text-center items-center justify-center bg-orange-500 ">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            <!--Item 7 Footer-->
+            <div
+              class="p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xs">
+              <p>Yayımlanma | 15.08.2023</p>
+              <div class="flex items-center justify-center space-x-1">
+                <i class="fa-solid fa-eye fa-lg" style="color: #929c02;"></i>
+                <p>129</p>
+              </div>
+            </div>
+          </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+<!--Footer Section-->
+<footer class="bg-black text-gega-grey">
+  <!--Footer Container-->
+  <div class="container flex flex-col md:flex-row px-10 lg:px-0 pb-8">
+    <!--Left-->
+    <div class="basis-1/3">
+      <a href="index.html"
+        class="text-2xl lg:text-3xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-orange-500 to-gray-900">BAYRAK GAME</a>
+      <p class="text-sm mt-2 mb-2">2024 BAYRAK No &copy; COPYRIGHT</p>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/in/emreebayrak/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+
+    </div>
+    <!--Middle-->
+    <div class="basis-1/3">
+      <h2 class="mb-2 text-orange-500">BAĞLANTILAR</h2>
+      <div class="grid grid-cols-5 gap-2 uppercase">
+        <a class="col-span-2 hover:text-orange-500 duration-500" href="index.html" >ana sayfa</a>
+        <a class="col-span-2 hover:text-orange-500 duration-500" href="oyunlar.html" >oyunlar</a>
+        <a class="col-span-2 hover:text-orange-500 duration-500" href="haberler.html" >haberler</a>
+        <a class="col-span-2 hover:text-orange-500 duration-500" href="iletisim.html"  >iletişim</a>
+      </div>
+    </div>
+    <!--Right-->
+    <div class="basis-1/3">
+      <h2 class="mb-2 text-orange-500">takip et</h2>
+      <form action="" class="flex">
+        <input class="py-1 px-2 bg-transparent border border-orange-500 placeholder:text-xs outline-none"
+          placeholder="MAİL ADRESİNİ GİRİNİZ" type="text">
+        <button
+          class="py-1 px-2 bg-transparent border border-orange-500 bg-orange-500 font-gemunu uppercase">ABONE OL</button>
+      </form>
+    </div>
+  </div>
+</footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BG | OYUNLAR</title>
+  <link rel="icon" type="image/x-icon" href="/public/images/bayrak gamejpg.jpg">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Open+Sans&display=swap"
+    rel="stylesheet">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="./css/styles.css" rel="stylesheet">
+</head>
+
+<body class="font-open dark bg-black">
+
+  <!--Dark/Light Toggle-->
+  <div class="absolute top-1 left-5 cursor-pointer text-lg">
+    <i class="fa-solid fa-sun text-white" id="sun"></i>
+    <i class="fa-solid fa-moon text-black hidden" id="moon"></i>
+  </div>
+
+  <!--Header Section-->
+  <header id="anabaslik" class="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase">
+    <!--Header Container-->
+    <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
+      <!--Logo-->
+      <a href="index.html"><img src="/public/images/bayrak game2.png" alt=""></a>
+
+      <!--Mobile Menu-->
+      <div class="block md:hidden pr-4">
+        <div class="space-y-1 cursor-pointer">
+          <div class="bg-gega-grey w-8 h-1 rounded-full"></div>
+          <div class="bg-gega-grey w-8 h-1 rounded-full"></div>
+          <div class="bg-gega-grey w-8 h-1 rounded-full"></div>
+        </div>
+      </div>
+
+      <!--Navigation-->
+      <nav class="hidden md:flex justify-between flex-1">
+        <!--Menu-->
+        <div class="flex items-center lg:text-lg space-x-4 lg:space-x-8">
+          <i class="fa-solid fa-gamepad" >
+          <a href="oyunlar.html"  class="hover:text-orange-500 transition duration-500">oyunlar</a></i>
+          <i class="fa-solid fa-newspaper" >
+          <a href="haberler.html"  class="hover:text-orange-500 transition duration-500">haberler</a></i>
+          <i class="fa-solid fa-paper-plane" >
+          <a href="iletisim.html"  class="hover:text-orange-500 transition duration-500">iletişim</a></i>
+        </div>
+        <!--Login Area-->
+        <div class="flex items-center space-x-4 lg:space-x-8">
+          <!--Search Area-->
+          <form>
+            <div class="group border-r px-4 mx-4 py-1 border-orange-500">
+              <input type="text"
+                class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-orange-500 focus:outline-none w-24 lg:w-44 transition duration-500 ">
+              <button class="-ml-4 group-hover:ml-0 transition duration-500"><i
+                  class="fas fa-search group-hover:text-orange-500 transition duration-500"></i></button>
+            </div>
+          </form>
+          <!--Signup Area-->
+          <div class="flex items-center space-x-4 lg:space-x-8 lg:text-lg">
+
+            <a href="giris.html"
+              class="bg-orange-500 px-3 py-1 hover:bg-orange-600 hover:text-gega-grey cursor-pointer transition duration-500 whitespace-nowrap rounded-full">Giris | Kaydol
+              </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+<!--oyunlar-->
+    <div class="flex flex-wrap gap-2 bg-black justify-center">
+        <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img class="w-full" src="/public/images/4T96qgBXc.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Looney Tunes</div>
+            <p class="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <a href="https://www.boomerangtv.co.uk/shows/looney-tunes" target="_blank">
+                    <button class="bg-orange-500 hover:bg-orange-900 text-white font-bold py-2 px-4 rounded-full">
+                    Daha Fazla Bilgi
+                    </button></a>
+            </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img class="w-full" src="/public/images/hogwarts-legacy-sistem-gereksini.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Harry Potter HL</div>
+            <p class="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <a href="https://www.hogwartslegacy.com/en-us" target="_blank">
+                    <button class="bg-orange-500 hover:bg-orange-900 text-white font-bold py-2 px-4 rounded-full">
+                    Daha Fazla Bilgi
+                    </button></a>
+            </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img class="w-full" src="/public/images/oyun1.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">The Last of Us</div>
+            <p class="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <a href="https://store.steampowered.com/agecheck/app/1888930/" target="_blank">
+                    <button class="bg-orange-500 hover:bg-orange-900 text-white font-bold py-2 px-4 rounded-full">
+                    Daha Fazla Bilgi
+                    </button></a>
+            </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img class="w-full" src="/public/images/oyun2.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Valorant</div>
+            <p class="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <a href="https://playvalorant.com/tr-tr/" target="_blank">
+                    <button class="bg-orange-500 hover:bg-orange-900 text-white font-bold py-2 px-4 rounded-full">
+                    Daha Fazla Bilgi
+                    </button></a>
+            </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full max-w-sm rounded overflow-hidden shadow-lg mb-2 bg-white">
+            <img class="w-full" src="/public/images/oyun3.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Black Ops III</div>
+            <p class="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <a href="https://store.steampowered.com/agecheck/app/311210/?l=turkish" target="_blank">
+                    <button class="bg-orange-500 hover:bg-orange-900 text-white font-bold py-2 px-4 rounded-full">
+                    Daha Fazla Bilgi
+                    </button></a>
+            </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full max-w-sm rounded overflow-hidden shadow-lg mb-2 bg-white">
+            <img class="w-full" src="/public/images/bg33.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Baldur's Gate</div>
+            <p class="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <a href="https://store.steampowered.com/app/1086940/" target="_blank">
+                <button class="bg-orange-500 hover:bg-orange-900 text-white font-bold py-2 px-4 rounded-full">
+                Daha Fazla Bilgi
+                </button></a>
+            </div>
+        </div>
+    </div> 
+
+<!--Footer Section-->
+<footer class="bg-black text-gega-grey">
+  <!--Footer Container-->
+  <div class="container flex flex-col md:flex-row px-10 lg:px-0 pb-8">
+    <!--Left-->
+    <div class="basis-1/3">
+      <a href="index.html"
+        class="text-2xl lg:text-3xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-orange-500 to-gray-900">BAYRAK GAME</a>
+      <p class="text-sm mt-2 mb-2">2024 BAYRAK No &copy; COPYRIGHT</p>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/in/emreebayrak/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+
+    </div>
+    <!--Middle-->
+    <div class="basis-1/3">
+      <h2 class="mb-2 text-orange-500">BAĞLANTILAR</h2>
+      <div class="grid grid-cols-5 gap-2 uppercase">
+        <a class="col-span-2 hover:text-orange-500 duration-500" href="index.html" >ana sayfa</a>
+        <a class="col-span-2 hover:text-orange-500 duration-500" href="oyunlar.html" >oyunlar</a>
+        <a class="col-span-2 hover:text-orange-500 duration-500" href="haberler.html" >haberler</a>
+        <a class="col-span-2 hover:text-orange-500 duration-500" href="iletisim.html"  >iletişim</a>
+      </div>
+    </div>
+    <!--Right-->
+    <div class="basis-1/3">
+      <h2 class="mb-2 text-orange-500">takip et</h2>
+      <form action="" class="flex">
+        <input class="py-1 px-2 bg-transparent border border-orange-500 placeholder:text-xs outline-none"
+          placeholder="MAİL ADRESİNİ GİRİNİZ" type="text">
+        <button
+          class="py-1 px-2 bg-transparent border border-orange-500 bg-orange-500 font-gemunu uppercase">ABONE OL</button>
+      </form>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
